@@ -1,0 +1,38 @@
+# NetBeans specific files
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+.idea/ # If you also use IntelliJ for some reason
+.vscode/ # If you also use VS Code for some reason
+*.log
+*.jar
+*.war
+*.ear
+target/ # For Maven projects
+nb-configuration.xml
+# Apache Tomcat specific (compiled artifacts, logs, server config
+usually not versioned)
+# These are typically outside your project, but if you have a local
+dev server config:
+# /webapps/
+# /logs/
+# /work/
+# Database specific (if you have local sensitive config files, exclude
+them)
+# For example, if you store database credentials in a separate
+properties file:
+db.properties
+database.properties
+config.properties
+src/main/resources/application.properties # If it contains sensitive
+info
+src/main/resources/application.yml # If it contains sensitive
+info
+# Generated files/dependencies
+/lib/
+/target/ # Common for Maven projects
+# Operating System Files
+.DS_Store
+Thumbs.db
